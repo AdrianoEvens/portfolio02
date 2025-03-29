@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+      <h3 class="cadastroTitulo">Cadastro de Usuário</h3>
+      <div id="imagemPrincipal">
+      <img src="../../assets/icon/add-user.png" width="80" height="80">
+    </div>
+      <ion-item>
+        <ion-label position="stacked">Nome</ion-label>
+        <ion-input></ion-input>
+    </ion-item>
+
+  <ion-item>
+      <ion-label position="stacked">E-mail</ion-label>
+      <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Senha</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="cadastrar()">Cadastrar</ion-button>
+
+</ion-content>
+ 

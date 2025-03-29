@@ -1,0 +1,38 @@
+ion-content{
+    --background: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+}
+
+ion-item{
+
+    --background: transparent;
+}
+
+ion-input{
+    --background: transparent;
+}
+
+ion-button{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    --background: rgb(3,122,251);
+    --background: radial-gradient(circle, rgba(3,122,251,1) 0%, rgb(161, 199, 255) 100%);
+}
+
+ion-button:hover{
+    transform: scale(1.05);
+}
+
+.cadastroTitulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+#imagemPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
